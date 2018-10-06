@@ -36,6 +36,6 @@ bulkEdit();
 
 By default this makes all your activities public.
 
-`bulkEdit('everyone')` - allow everyone to view your activities
-`bulkEdit('followers_only)` - allow followers to view your activities
-`bulkEdit('only_me)` - only you can view your activities
+`bulkEdit('everyone')` - allow everyone to view your activities <br />
+`bulkEdit('followers_only)` - allow followers to view your activities <br />
+`bulkEdit('only_me)` - only allow yourself to view your activities
