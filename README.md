@@ -26,7 +26,7 @@ function bulkEdit(privacySetting = 'everyone') {
   const nextButton = document.querySelector('.btn.next_page');
   if (nextButton != null) {
     nextButton.click();
-    setTimeout(bulkEdit, 5000);
+    setTimeout(bulkEdit, 5000, privacySetting);
   }
 }
 
