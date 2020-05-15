@@ -23,7 +23,7 @@ function bulkEdit(privacySetting = 'everyone') {
   )) {
     saveButton.click();
   }
-  const nextButton = document.querySelector('.btn.next_page');
+  const nextButton = document.querySelector('button.next_page');
   if (nextButton != null) {
     nextButton.click();
     setTimeout(bulkEdit, 5000, privacySetting);
